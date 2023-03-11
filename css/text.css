@@ -17,27 +17,113 @@
         font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
     }
 }
-
+a:link, a:visited{
+    color: gray;
+}
+div#tableContainer{
+    display: table;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#tableRow{
+    display: table-row;
+    vertical-align: top;
+}
 nav#menu{
     position: fixed;
+    width: 20%;
     top: -5px;
     left: -5px;
-    width: 20%;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     border-style: inset;
-    border-width: medium;
-    border-color: white;
+    border-right-width: 5px;
+    border-color: #f6f7f8;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: white;
 }
-
 nav#menu:hover{
-    border-style: double;
+    border-style: solid;
+    border-color: #f0f1f2;
+}
+div.menu{
+    display: table-cell;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #f6f7f8;
+    border-color: white;
+    border-style: inset;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-radius: 10px;
+    margin: auto;
+    color: gray;
+}
+a p{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+div.menu:hover{
+    background-color: aliceblue;
     border-color: #f6f7f8;
 }
-
-
+img.menu-img{
+    float: left;
+}
+#myimgbox{
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#myimg{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: border-width 0.2s ease-in-out;
+    margin: auto;
+}
+#myimg:hover{
+    border-width: 4px;
+}
+#icon1{
+    float: left;
+    padding: 5px;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+#icon2{
+    float: right;
+    padding: 5px;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+blockquote#myname{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 20px;
+    color: dodgerblue;
+    font-size: large;
+    transition: font-weight 0.2s;
+}
+blockquote#myname:hover{
+    font-weight: bold;
+}
 
 header img{
     float: left;
