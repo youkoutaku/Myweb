@@ -8,7 +8,8 @@ body{
     font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
 }
 a:link, a:visited{
-    color: gray;
+    font-weight: bold;
+    color: rgb(88, 87, 87);
 }
 div#tableContainer{
     display: table;
