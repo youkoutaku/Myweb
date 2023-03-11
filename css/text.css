@@ -127,8 +127,8 @@ blockquote#myname:hover{
 }
 div#c{
     position: absolute;
-    top: 90%;
-    right: 3%;
+    bottom: 10px;
+    right: 10px;
     font-size: x-small;
 }
 header img{
