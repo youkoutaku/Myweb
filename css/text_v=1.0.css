@@ -1,22 +1,11 @@
-@media screen and (min-width: 1201px){
-    body{
-        background-color: #f6f7f8;
-        width: 40%;
-        margin-left: auto;
-        margin-right: auto;
-        padding:10px 10px 10px 10px;
-        font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
-    }
-}
-@media screen and (max-width: 1200px ){
-    body{
-        width: 40%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #f6f7f8;
-        padding:10px 10px 10px 10px;
-        font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
-    }
+
+body{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f7f8;
+    padding:10px 10px 10px 10px;
+    font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
 }
 a:link, a:visited{
     color: gray;
@@ -34,12 +23,13 @@ div#tableRow{
 nav#menu{
     position: fixed;
     width: 20%;
-    top: -5px;
-    left: -5px;
+    top: 0px;
+    left: 0px;
     height: 100%;
+    padding: 2px;
     margin-left: auto;
     margin-right: auto;
-    border-style: inset;
+    border-style: solid;
     border-right-width: 5px;
     border-color: #f6f7f8;
     border-top-right-radius: 5px;
@@ -99,7 +89,7 @@ img.menu-img{
     margin: auto;
 }
 #myimg:hover{
-    border-width: 4px;
+    border-width: 5px;
 }
 #icon1{
     float: left;
@@ -120,29 +110,62 @@ blockquote#myname{
     height: 20px;
     color: dodgerblue;
     font-size: large;
-    transition: font-weight 0.2s;
+    transition: font-weight 0.3s;
 }
 blockquote#myname:hover{
     font-weight: bold;
 }
-div#c{
-    position: absolute;
-    bottom: 10px;
+footer{
+    position: fixed;
+    bottom: 5px;
     right: 10px;
     font-size: x-small;
 }
+
 header img{
     float: left;
 }
+#hello{
+    transition: transform 0.3s ease-in-out;
+}
+#hello:hover{
+    transform: rotate(-45deg);
+}
 header h1{
-    font-size: 30px;
+    margin-left: 40px;
+    font-size: 32px;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
 }
 header p{
     font-size: small;
     color: grey;
     margin-left: auto;
     margin-right: auto;
+}
+article{
+    background-color: white;
+    border-color: white;
+    border-width: thin;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+header time{
+    float: right;
+}
+#right{
+    text-align: right;
+}
+header h3{
+    text-decoration: underline;
+}
+article p{
+    color: gray;
+}
+article h3:hover{
+    color: dodgerblue;
+}
+aside{
+    float: right;
+
 }
