@@ -150,8 +150,11 @@ article{
     background-color: white;
     border-color: white;
     border-width: thin;
-    padding: 10px;
-    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
 }
 header time{
