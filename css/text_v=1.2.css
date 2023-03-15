@@ -172,6 +172,9 @@ article p{
 article h3:hover{
     color: dodgerblue;
 }
+p.c-black{
+    color: black;
+}
 iframe {
     position: absolute;
     border: white solid thin;
