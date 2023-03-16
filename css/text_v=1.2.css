@@ -4,7 +4,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #f6f7f8;
-    padding:5px;
+    padding:3px;
     font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
 }
 a.nav:link, a.nav:visited{
@@ -156,7 +156,6 @@ header p{
     margin-right: auto;
 }
 article{
-    width: 100%;
     height: 100%;
     background-color: white;
     border-color: white;
@@ -199,7 +198,11 @@ aside{
     nav#menu{
       display: none;
     }
-
+    body{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     footer{
     position:static;
     bottom: 0px;
