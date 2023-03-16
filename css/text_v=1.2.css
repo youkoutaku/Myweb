@@ -8,9 +8,15 @@ body{
     padding:5px;
     font-family: Verdana,Geneva,Arial,Tahoma,Helvetica,sans-serif;
 }
-a:link, a:visited{
+a.nav:link, a.nav:visited{
     font-weight: bold;
-    color: rgb(88, 87, 87);
+    color: rgba(77, 77, 77, 0.66);
+}
+a.nav:hover{
+    color: dodgerblue;
+}
+a:link, a:visited{
+    color: dodgerblue; 
 }
 div#tableContainer{
     display: table;
@@ -110,12 +116,12 @@ blockquote#myname{
     margin-right: auto;
     width: 100px;
     height: 20px;
-    color: dodgerblue;
+    color: black;
     font-size: large;
     transition: font-weight 0.3s;
 }
 blockquote#myname:hover{
-    font-weight: bold;
+    color: dodgerblue;
 }
 footer{
     position: fixed;
