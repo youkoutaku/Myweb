@@ -33,7 +33,7 @@ div#tableRow{
     display: table-row;
     vertical-align: top;
 }
-nav#menu{
+nav#nav-menu{
     position: fixed;
     width: 20%;
     top: 0px;
@@ -138,10 +138,10 @@ footer{
 header img{
     float: left;
 }
-#hello{
+#imghello{
     transition: transform 0.3s ease-in-out;
 }
-#hello:hover{
+#imghello:hover{
     transform: rotate(-45deg);
 }
 header h1{
@@ -170,7 +170,7 @@ article{
 header time{
     float: right;
 }
-#right{
+.right{
     text-align: right;
 }
 header h3{
