@@ -194,6 +194,14 @@ iframe {
 aside{
     float: right;
 }
+.blog-img-box{
+    padding: 10px;
+    text-align:center;
+    width:100%;
+}
+.blog-img-box img{
+    max-width:100%;
+}
 @media screen and (max-width: 900px) {
     nav#nav-menu{
       display: none;
