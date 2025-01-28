@@ -1,0 +1,143 @@
+@media screen and (min-width: 900px){
+    div.note{
+        background-color:#F6F7F8;
+        margin-left: 20%;
+        margin-right: 20%;
+        border: 2px dotted black;
+        padding:10px 10px 10px 10px;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (max-width: 800px ){
+    div.note{
+        background-color:#F6F7F8;
+        margin-left: 20%;
+        margin-right: 20%;
+        border: 2px dotted black;
+        padding:10px 10px 10px 10px;
+        font-family: sans-serif;
+    }
+}
+
+body{
+    background-color: #F6F7F8;
+}
+
+a:link{
+    color: gray;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    background: gray;
+}
+
+header{
+    background-color: white;
+    margin: 0px 10px 10px 10px;
+    height: 109px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-left-radius:     5px;
+	border-top-right-radius:    5px;
+	border-bottom-left-radius:  5px;
+	border-bottom-right-radius: 5px;
+}
+header p{
+    float: left;
+}
+
+section#blog{
+    display: table-cell;
+	vertical-align: top;/*表格内容上对齐*/
+    background-color: white;
+    border: outset white 3px;
+    margin: 5px 5px 5px 5px;
+    border-top-left-radius:     5px;
+	border-top-right-radius:    5px;
+	border-bottom-left-radius:  5px;
+	border-bottom-right-radius: 5px;
+}
+article{
+    background-color: white;
+    border-top-left-radius:     5px;
+	border-top-right-radius:    5px;
+	border-bottom-left-radius:  5px;
+	border-bottom-right-radius: 5px;
+}
+header.top{
+    background-color: #F6F7F8;
+    padding: 5px;
+    border-top-left-radius:     5px;
+	border-top-right-radius:    5px;
+	border-bottom-left-radius:  5px;
+	border-bottom-right-radius: 5px;
+}
+nav ul{
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+ul li a:link, ul li a:visited{
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+ul li.selected{
+    background-color: #c8b99c;
+}
+
+section#right{
+    display:table-cell;
+    width: 25%;
+	vertical-align: top;/*表格内容上对齐*/
+    background-color: white;
+}
+aside{
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    border: outset white 3px;
+    margin: 5px 5px 5px 5px;
+    border-top-left-radius:     5px;
+	border-top-right-radius:    5px;
+	border-bottom-left-radius:  5px;
+	border-bottom-right-radius: 5px;
+}
+footer{
+    background-color: white;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+    border: solid #928f8f 3px;
+    border-top-left-radius:     5px;
+	border-top-right-radius:    5px;
+	border-bottom-left-radius:  5px;
+	border-bottom-right-radius: 5px;
+}
+
+#study {
+    background-image: url(../img/Background.webp);
+    background-color: blue;
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+    width: 200px;
+}
+div#tableContainer{
+	display: table;/*作为表格*/
+	border-spacing: 10px;/*表格中的单元格增加10外边距*/
+}
+div#tableRow{
+	display: table-row;/*作为表格中的第一行*/
+}
